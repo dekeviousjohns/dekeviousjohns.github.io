@@ -1,0 +1,132 @@
+
+
+header {
+    background-color: #b4b4b4;
+    border-top: 1px solid rgb(146, 146, 146);
+    border-bottom: 1px solid rgb(146, 146, 146);
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline;
+    margin-left: 105px;
+}
+
+ul li a {
+    color: #00a0c2;
+    font-size: 40px;
+}
+
+li {
+    color: #00a0c2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin-right: 40px;
+}
+
+li a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero {
+    background: url(../media/Web-Development.png);
+    background-size: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.one {
+    color: #00a0c2;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-left: 310px;
+}
+
+.two {
+    color: #00a0c2;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-left: 375px;
+}
+
+.hero img{
+    border: 5px solid rgb(202, 202, 202);
+    border-radius: 50%;
+    margin-left: 37.55555555555%;
+    height: 300px;
+}
+
+.about {
+    background-color: #0257bb;
+    border-top: 1px solid rgb(146, 146, 146);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.page1-headers {
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.info p {
+    color: #fff;
+}
+
+footer {
+    border-top: 1px solid rgb(146, 146, 146);
+    background-color: #b4b4b4;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.linked {
+    margin-left: 2px;
+}
+
+i {
+    font-size: 30px;
+    padding-bottom: 5px;
+    color: #00a0c2;
+    transition: 0.5s;
+}
+
+i:hover {
+    transform: scale(1.25);
+    color: #fff;
+}
+  
+  .transform {
+    -webkit-transition: all 2s ease;  
+    -moz-transition: all 2s ease;  
+    -o-transition: all 2s ease;  
+    -ms-transition: all 2s ease;  
+    transition: all 2s ease;
+  }
+  
+  .transform-active {
+    background-color: #45CEE0;
+    height: 200px;
+    width: 200px;
+  }
