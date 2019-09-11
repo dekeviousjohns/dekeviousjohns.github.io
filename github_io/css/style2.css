@@ -62,4 +62,59 @@ li a:hover {
     transform: scale(1.02)
 }
 
+@media (min-width: 481px) and (max-width: 768px) {
+    ul li {
+        font-size: 14px;
+        padding-top: 10px;
+        margin-left: 80px;
+    }
+    
+    ul li a {
+        font-size: 14px;
+    }
+    
+
+    h2,h3 {
+        font-size: 20px;
+    }
+
+    .project2 {
+        margin-left: 100px;
+    }
+
+    .project3 {
+        display: none;
+    }
+  }
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    ul li {
+        font-size: 10px;
+        padding-top: 10px;
+        margin-left: 13px;
+    }
+    
+    ul li a {
+        font-size: 12px;
+    }
+
+    h2,h3 {
+        font-size: 20px;
+    }
+
+    .project1 img {
+        height: 300px;
+        width: 200px;
+        margin-left: 100px;
+    }
+    
+    .project2 {
+        display: none;
+    }
+
+    .project3 {
+        display: none;
+    }
+    
+  }
 
